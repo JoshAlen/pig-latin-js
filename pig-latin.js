@@ -6,6 +6,12 @@ function getPigLatin() {
 
   //your code goes here
 
+  str = str.replace(/([^aeiou]*)([aeiou]\w+)/, '$2$1ay');
+
+
+
+  
+  
   //change the HTML content of a <p> element with id="pig-latin-word": 
   document.getElementById("pig-latin-word").innerHTML = str;
 
